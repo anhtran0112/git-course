@@ -1,0 +1,4 @@
+Config username: git config --global user.name "anhtran"
+Config email: git config --global user.email "duyanh011286@gmail.com"
+Set up the name again: git config --global user.name "PW - duyanh"
+commit: git commit -m"init project"
