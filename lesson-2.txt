@@ -1,0 +1,20 @@
+//Giải thích câu lệnh
+
+git init : Khời tạo repository
+git add <file_name> : Thêm <file_name> vào staging area
+git add . : Thêm tất cả các file tại thư mục hiện tại vào staging area
+git commit -m “message” : Lưu (commit) các thay đổi trong staging area vào lịch sử của kho lưu trữ Git, kèm theo một thông điệp mô tả (message)
+
+// Quản lý file trong thư mục lesson-2 với Git
+
+a. Tạo 3 file: file1, file2, file3
+b. Chạy lệnh: git init
+Khới tạo
+c. Chạy lệnh: git commit -m "init project"
+Tạo một commit mới trong Git với message là "init project".
+d. Chạy lệnh: git add file1
+Thêm "file1" vào khu vực staging area nhưng chưa commit
+e. Chạy lệnh: git commit -m "add file1"
+Commit "file1" ở khu vực staging area 
+f. Chạy lệnh: git commit -m "add file"
+Commit lỗi vì "file" không có trong khu vực staging area
