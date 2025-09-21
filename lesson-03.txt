@@ -1,4 +1,4 @@
-Giải thích các câu lệnh: 
+// Giải thích các câu lệnh: 
 
 git commit --amend : Sửa commit gần nhất
 git commit --amend -m"<message>" : Thay đổi message của commit gần nhất
@@ -57,7 +57,7 @@ i.Chạy lệnh: git reset HEAD~1
 - Staging: 
 - Repository: file1
 
-Hãy tưởng tượng có 1 folder lesson-3-git mới được tạo ra. Hãy liệt kê các file theo
+// Hãy tưởng tượng có 1 folder lesson-3-git mới được tạo ra. Hãy liệt kê các file theo
 từng vùng sau khi thao tác các lệnh sau:
 
 1 git init  Khởi tạo repo Git mới
